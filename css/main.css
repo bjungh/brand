@@ -1,0 +1,30 @@
+*{margin: 0%; padding: 0%;}
+ul li{list-style: none;margin: 0%;}
+a{text-decoration: none;}
+header{width:100%;position: absolute;z-index: 100;}
+.container{position: relative;width: 1200px;height: 80px;margin: 0 auto;}
+.top_navibox{width: 100%;height: 80px;background: rgba(0, 0, 0,0.5);position: fixed;}
+
+nav h1{position: absolute;left: 0px;top: 10px;}
+nav h1 img{width: 100px;}
+.main_visual h2 {position: absolute;left: 50%;transform: translatex(-50%);top: 300px; font-size: 3rem;
+        color:rgb(233, 169, 40);font-weight: bold;
+}
+nav ul{position: absolute;right: 0%;line-height: 80px;}
+nav ul li{display: inline-block;}
+nav ul li a{padding: 0% 10px;color: white;}
+.main_visual{width: 100%;height: 700px;position: relative; background-image: url("../images/main_04.webp");
+             background-repeat: no-repeat;background-size: cover;background-position: center center;overflow: hidden;}
+.new{width:1200px;margin-top: 5rem; overflow: hidden;margin-bottom: 5rem;}
+.new article img{float: left;}
+.collect{margin-top: 5rem;overflow: hidden;}
+.colimg ul li{float: left;margin-right: 10px;margin-top: 2rem;}
+.colimg ul li p{text-align: center;}
+.colimg ul li:nth-child(even){margin-right:none;}
+.detail{overflow: hidden;margin-top: 5rem;}
+.detail p{margin-bottom: 20px;}
+.detail div{float: left;margin-right: 20px;}
+.detail div img{transition: 1s;}
+.detail div a:hover img{transform: scale(1.1);}
+.detail .no{margin-right: 0px;}
+footer{width:100%;height: 100px;clear: both;background: #ccc;}
