@@ -2,8 +2,8 @@
 ul li{list-style: none;margin: 0%;}
 a{text-decoration: none;}
 header{width:100%;position: absolute;z-index: 100;}
-.container{position: relative;width: 1200px;margin: 0 auto;}
-.container::after{content: "";clear: both;}
+header{width:100%;position: absolute;z-index: 100;}
+.container{position: relative;width: 80%;margin: 0 auto;}
 .top_navibox{width: 100%;height: 80px;background: rgba(0, 0, 0,0.5);position: fixed;}
 
 nav h1{position: absolute;left: 0px;top: 10px;}
@@ -15,30 +15,32 @@ nav h1 img{width: 100px;}
 nav ul{position: absolute;right: 0%;line-height: 80px;}
 nav ul li{display: inline-block;}
 nav ul li a{padding: 0% 10px;color: white;}
+nav ul li a:hover{color: sandybrown;}
 .main_visual{width: 100%;height: 700px;position: relative; background-image: url("../images/sub_main.jpg");
              background-repeat: no-repeat;background-size: cover;background-position: center center;overflow: hidden;}
 .text{text-align: center;margin-top: 5rem;margin-bottom: 5rem; line-height: 2rem;} 
 
 /* section part */
+.container>h3{color: sandybrown;}
 .sec1{overflow: hidden;margin-bottom: 5rem}
-.sec1 div{float: left;margin-right: 20px;margin-bottom: 19px;}
-.sec1 div:nth-child(odd){margin-right: 0%;}
-.ten {position: relative;}
+.sec1 div{float: left; margin-bottom: 1rem;}
+.sec1 div:nth-child(even){margin-right: 1%;}
+.ten {position: relative;width: 100%;}
 .ten h3{position: absolute;left: 50%;transform: translatex(-50%);top:10%;color: white;}
-.horse {position: relative;}
+.horse {position: relative;width: 49.5%;}
 .horse h3{position: absolute;left: 50%;transform: translatex(-50%);top:10%;color: white;}
-.golf {position: relative;}
+.golf {position: relative;width: 49.5%;}
 .golf h3{position: absolute;left: 50%;transform: translatex(-50%);top:10%;color: white;}
-.motor{position: relative;}
+.motor{position: relative;width: 49.5%;}
 .motor h3{position: absolute;left: 50%;transform: translatex(-50%);top:10%;color: white;}
-.yot{position: relative;}
+.yot{position: relative;width: 49.5%;}
 .yot h3{position: absolute;left: 50%;transform: translatex(-50%);top:10%;color: white;}
 .sec2{overflow: hidden;}
-.sec2 div{float: left;margin-right: 20px;}
+.sec2 div{float: left;margin-right: 1%;}
 .sec2 div:last-child{margin-right: 0%;}
-.exp{position: relative;}
+.exp{position: relative;width: 49.5%;}
 .exp h3{position: absolute;left: 50%;transform: translatex(-50%);top:10%;color: white;}
-.award{position: relative;}
+.award{position: relative;width: 49.5%;}
 .award h3{position: absolute;left: 50%;transform: translatex(-50%);top:10%;color: white;}
 /* 효과 */
 section div{overflow: hidden;}
@@ -50,4 +52,4 @@ section div{overflow: hidden;}
 footer{width:100%;clear: both;margin-top: 5rem;background: rgb(58, 58, 58);}
 footer img{width: 100px;position: relative; left: 50%;transform: translate(-50%);margin-top: 1rem;}
 address{text-align: center;margin-top: 1rem;color: white;}
-footer p{text-align: center;margin-top: 1rem;padding: 5px;color: white;}             
+footer p{text-align: center;margin-top: 1rem;padding: 0.3rem;color: white;}             

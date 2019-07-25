@@ -4,8 +4,8 @@ a{text-decoration: none;}
 
 /* header part */
 header{width:100%;position: absolute;z-index: 100;}
-.container{position: relative;width: 1200px;margin: 0 auto;}
-.container::after{content: "";clear: both;}
+.container{position: relative;width: 80%;margin: 0 auto;}
+/* .container::after{content: "";clear: both;} */
 .top_navibox{width: 100%;height: 80px;background: rgba(0, 0, 0,0.5);position: fixed;}
 
 nav h1{position: absolute;left: 0px;top: 10px;}
@@ -15,37 +15,45 @@ nav h1 img{width: 100px;}
 nav ul{position: absolute;right: 0%;line-height: 80px;}
 nav ul li{display: inline-block;}
 nav ul li a{padding: 0% 10px;color: white;}
-
+nav ul li a:hover{color: sandybrown;}
 /* main_visual part */
 .main_visual h2 span{color: #a07b34;font-weight:bolder;}
 .main_visual{width: 100%;height: 700px;position: relative; background-image: url("../images/main_04.webp");
              background-repeat: no-repeat;background-size: cover;background-position: center center;overflow: hidden;}
 
 /* main section part */
-.new{width:1200px;margin-top: 5rem; margin-bottom: 5rem;overflow: hidden;}
-.new div img{float: left;}
-.collect{margin-top: 5rem;overflow: hidden;}
-.colimg ul li{float: left;margin-right:10px;margin-top: 2rem;}
+.new{width:100%;margin-top: 5rem; margin-bottom: 5rem;overflow: hidden;}
+.new div{width: 32.666%;float: left;margin-right: 1%;}
+.new div:last-child{margin-right: 0%;}
+.new div img{max-width: 100%;}
+.new h3{color: sandybrown;}
+.collect{margin-top: 5rem;overflow: hidden;width: 100%;}
+.colltext h3{color: sandybrown;}
+.colimg ul li{float: left;margin-right:1%;margin-top: 2rem;width:49.5%;}
+.colimg ul li img{max-width: 100%;}
 .colimg ul li p{text-align: center;}
-.colimg ul li:nth-child(odd){margin-left:0%;}
-.detail{overflow: hidden;margin-top: 5rem;}
+.colimg ul li:nth-child(even){margin-right:0%;}
+.detail{overflow: hidden;margin-top: 5rem;width: 100%;}
+.detail h3{color: sandybrown;}
 .detail p{margin-bottom: 20px;}
-.detail div{float: left;margin-right: 20px;}
-.detail div:last-child{}
-.detail div img{transition: 1s;}
-.detail div a:hover img{transform: scale(1.1);}
-.detail .no{margin-right: 0px;}
+.detail div{float: left;margin-right: 1%;width: 32.6%;overflow: hidden;}
+.detail div:last-child{margin-right: 0%;}
+
 
 /* 효과 */
 /* .new div {overflow: hidden;} */
 .new div img{transition: 0.7s;}
-.new div img:hover{transform: scale(0.9);}
+.new div{overflow: hidden;}
+.new div img:hover{transform: scale(1.1);}
 .colimg ul li{overflow: hidden;}
 .colimg ul li img{transition: 0.8s;}
-.colimg ul li img:hover{transform: scalex(1.2);}
-.colimg ul li img:hover p{color: white;z-index: 50;}
+.colimg ul li img:hover{transform: scale(0.95);}
+.colimg ul li:hover p{color: sandybrown ;z-index: 150;}
+.detail div img{transition: 1s;max-width: 100%;}
+.detail div:hover img{transform: scale(1.05);}
+.detail .no{margin-right: 0px;}
 /* footer part */
 footer{width:100%;clear: both;margin-top: 5rem;background: rgb(58, 58, 58);}
 footer img{width: 100px;position: relative; left: 50%;transform: translate(-50%);margin-top: 1rem;}
 address{text-align: center;margin-top: 1rem;color: white;}
-footer p{text-align: center;margin-top: 1rem;padding: 5px;color: white;}
+footer p{text-align: center;margin-top: 1rem;padding: 0.3rem;color: white;}
